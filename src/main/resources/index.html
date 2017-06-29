@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/app.animations.css" />
+
+    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-resource.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="js/app.module.js"></script>
+    <script src="js/app.config.js"></script>
+    <script src="js/app.animations.js"></script>
+    <script src="js/core/core.module.js"></script>
+    <script src="js/core/checkmark/checkmark.filter.js"></script>
+    <script src="js/core/phone/phone.module.js"></script>
+    <script src="js/core/phone/phone.service.js"></script>
+    <script src="js/phone-list/phone-list.module.js"></script>
+    <script src="js/phone-list/phone-list.component.js"></script>
+    <script src="js/phone-detail/phone-detail.module.js"></script>
+    <script src="js/phone-detail/phone-detail.component.js"></script>
+  </head>
+  <body>
+    <div class="view-container">
+      <div ng-view class="view-frame"></div>
+    </div>
+  </body>
+</html>
